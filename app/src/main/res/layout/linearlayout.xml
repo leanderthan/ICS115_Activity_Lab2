@@ -22,42 +22,44 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="15dp"
         android:text="TUGAWE COVE RESORT" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location:" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Brgy. Colongcogong, Caramoan, Luzon" />
+        android:layout_marginLeft="15dp"
+        android:text="Location:    Brgy. Colongcogong, Caramoan, Luzon" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Distance from UST:" />
+        android:layout_marginLeft="15dp"
+        android:text="Distance from UST:    328.81 km" />
 
-    <TextView
-        android:id="@+id/textView14"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="328.81 km" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="BACK" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NEXT" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="NEXT" />
+    </LinearLayout>
 
 </LinearLayout>
