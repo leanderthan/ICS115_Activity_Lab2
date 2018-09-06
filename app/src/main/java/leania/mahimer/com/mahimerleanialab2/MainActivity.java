@@ -10,6 +10,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.linearlayout);
         //setContentView(R.layout.relativelayout);
-        setContentView(R.layout.constraintlayout);
+        //setContentView(R.layout.constraintlayout);
     }
 }

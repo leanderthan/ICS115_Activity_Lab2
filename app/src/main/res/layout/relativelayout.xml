@@ -22,7 +22,8 @@
         android:layout_height="243dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textView5"

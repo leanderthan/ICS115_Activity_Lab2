@@ -14,8 +14,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="350dp"
-        android:layout_height="262dp" />
+        android:layout_width="254dp"
+        android:layout_height="262dp"
+        android:background="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textView"
