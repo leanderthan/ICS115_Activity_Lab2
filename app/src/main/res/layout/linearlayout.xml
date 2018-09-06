@@ -14,15 +14,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="254dp"
-        android:layout_height="262dp"
-        android:background="@mipmap/ic_launcher" />
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:background="@drawable/infinity" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TITLE" />
+        android:text="TUGAWE COVE RESORT" />
 
     <TextView
         android:id="@+id/textView2"
@@ -31,10 +31,22 @@
         android:text="Location:" />
 
     <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brgy. Colongcogong, Caramoan, Luzon" />
+
+    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Distance from UST:" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="328.81 km" />
 
     <Button
         android:id="@+id/button"

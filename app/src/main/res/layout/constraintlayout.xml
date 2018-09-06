@@ -19,25 +19,24 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="258dp"
-        android:layout_height="270dp"
-        android:background="@mipmap/ic_launcher"
+        android:layout_width="414dp"
+        android:layout_height="271dp"
+        android:background="@drawable/infinity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202" /> />
+        app:layout_constraintVertical_bias="0.253" /> />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="44dp"
-        android:layout_height="27dp"
-        android:text="TITLE"
+        android:layout_width="152dp"
+        android:layout_height="30dp"
+        android:text="TUGAWE COVE RESORT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637" />" />
+        app:layout_constraintVertical_bias="0.679" />" />
 
     <TextView
         android:id="@+id/textView10"
@@ -49,15 +48,38 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" /> />
+        app:layout_constraintVertical_bias="0.769" /> />
 
     <TextView
         android:id="@+id/textView11"
+        android:layout_width="242dp"
+        android:layout_height="22dp"
+        android:text="Brgy. Colongcogong, Caramoan, Luzon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" /> />
+    <TextView
+        android:id="@+id/textView12"
         android:layout_width="134dp"
         android:layout_height="28dp"
         android:text="Distance from UST:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" /> />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="71dp"
+        android:layout_height="28dp"
+        android:text="328.81 km"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -69,7 +91,7 @@
         android:layout_height="59dp"
         android:text="BACK"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -85,6 +107,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.968" /> />
+        app:layout_constraintVertical_bias="0.968" /><![CDATA[
 
+
+
+    />
+
+
+]]>
 </android.support.constraint.ConstraintLayout>
